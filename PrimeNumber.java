@@ -2,7 +2,7 @@ public class PrimeNumber {
     public static void main(String[] args) {
       int n = 7;
       System.out.println(checkPrime(n));
-      System.out.println("--------------");
+      System.out.println("");
       System.out.println(primee(479));
     }
     public static boolean checkPrime(int n){
@@ -17,7 +17,7 @@ public class PrimeNumber {
         return true;
     }
     public static boolean primee(int n){
-        if (n<=2) {
+        if (n<=1) {
             return false;
         }
         for(int i =2 ; i*i <=n ; i++){
